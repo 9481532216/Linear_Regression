@@ -1,3 +1,4 @@
+# Linear Regression without sklearn
 # Define the dataset
 X = [1, 2, 3, 4, 5]  # Input features
 y = [2, 4, 6, 8, 10]  # Corresponding labels
