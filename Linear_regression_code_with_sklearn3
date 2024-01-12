@@ -13,6 +13,19 @@ df = pd.read_csv('file_name.csv')  # Replace 'your_dataset.csv' with your actual
 X = df['X']  # Replace 'feature1', 'feature2', 'feature3' with the actual feature column names
 y = df['y']  # Replace 'label' with the actual label column name
 
+# plotting the points   
+plt.plot(X, y)  
+    
+# Set labels for the axes
+plt.xlabel('Input')
+plt.ylabel('Output') 
+    
+# giving a title to my graph  
+plt.title('Graphical Representation')  
+
+# Display the plot
+plt.show()
+
 X_arr=X.values.reshape(-1, 1)
 
 y_arr=y.values.reshape(-1, 1)
